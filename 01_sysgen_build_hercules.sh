@@ -5,6 +5,7 @@ trap 'check_return' 0
 set -e
 
 echo_step "Building external packages"
+rm -fr build/
 mkdir build
 cd build
 mkdir ./hercpkgs
